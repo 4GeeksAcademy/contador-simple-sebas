@@ -1,13 +1,12 @@
 import React from "react";
-import TrafficLight from "./TrafficLight";
+import CounterApp from "./CounterApp";
 
-//create your first component
 const Home = () => {
-	return (
-        <div className="text-center">
-            <TrafficLight /> 
-        </div>
-    );
+  return (
+    <div>
+      <CounterApp />
+    </div>
+  );
 };
 
 export default Home;
